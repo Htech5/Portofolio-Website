@@ -218,7 +218,7 @@ nav ul li a:hover::after {
 .services-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
-    transition: background 1.0s;
+    transition: background 1.0s, transform 1.0s;
 }
 
 #portofolio{
