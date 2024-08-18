@@ -27,12 +27,21 @@ body{
     padding: 20px 5%;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed; /* Makes the nav stick to the top */
+    top: 0; /* Positions the nav at the top of the viewport */
+    left: 0; /* Ensures the nav starts from the left edge */
+    width: 100%; /* Makes the nav span the full width of the viewport */
+    background: #080808; /* Background color to match your design */
+    z-index: 1000; /* Ensures the nav is above other content */
+    padding: 10px 5%; /* Adjust padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow for better visibility */
 }
+
 
 .logo{
     width: 140px;
