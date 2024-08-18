@@ -146,7 +146,7 @@ nav ul li a:hover::after {
 }
 
 .mainlinks.active::after{
-    width: 50%;
+    width: 100%;
 }
 .content ul il{
     list-style: none;
@@ -209,6 +209,7 @@ nav ul li a:hover::after {
 .services-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
+    transition: background 1.0s;
 }
 
 #portofolio{
