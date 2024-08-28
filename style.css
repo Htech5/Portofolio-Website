@@ -280,11 +280,13 @@ nav ul li a:hover::after {
     color: #ababab;
     display: inline-block;
     transition: transform 0.5s;
+    transition: color 1s;
 }
 
 .social a:hover{
     color: #ff004f;
     transform: translateY(-5px);
+
 }
 
 .btn{
@@ -309,6 +311,53 @@ nav ul li a:hover::after {
     background: #ff004f ;
 }
 
+/* Mengubah warna latar belakang modal */
+
+.modal-content {
+    outline: none;
+    border: none;
+    background-color: #262626;
+  }
+  
+  /* Mengubah warna header modal */
+  .modal-header {
+    background: #ff004f; /* Ganti dengan warna latar belakang header yang diinginkan */
+    color: #fff; /* Ganti dengan warna teks header yang diinginkan */
+  }
+  
+  .modal-header .btn-close {
+    background-color: #fff; /* Ganti dengan warna tombol close yang diinginkan */
+    color: #080808; /* Ganti dengan warna teks tombol close yang diinginkan */
+  }
+
+  .modal-header .btn-close:hover {
+    background-color: #fff;
+    color: #080808;
+  }
+
+  /* Mengubah warna teks dalam body modal */
+  .modal-body {
+    color: #262626; /* Ganti dengan warna teks yang diinginkan */
+    background : #fff;
+  }
+  
+  .modal-footer{
+    background: #fff;
+  }
+  /* Mengubah warna tombol di footer modal */
+  .modal-footer .btn {
+    background: #fff; /* Ganti dengan warna tombol yang diinginkan */
+    color: #ff004f; /* Ganti dengan warna teks tombol yang diinginkan */
+  }
+  .modal-footer .btn:hover{
+    display: inline-block;
+    background: #ff004f ;
+    color: #fff;
+  }
+  /* Mengubah warna tombol close di header modal */
+
+
+  
 .contactRight form{
     width: 100%;
 
